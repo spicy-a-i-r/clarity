@@ -38,12 +38,78 @@ body {
 }
 
 #bottom {
-    display: block;
+    display: flex;
 }
+
 #chapters-read-box {
-    justify-content: center;
+    display: flex;
     background-color: #CAD2C5;
     margin: 10px, auto;
     padding: 5px;
     max-width: 25%;
+    margin: 10px auto 10px auto;
+    padding: 10px;
 }
+
+#notes-box {
+    display: flex;
+    background-color: #FFFFFF;
+    border: none;
+    border-left: 15px solid #040404;
+    width: 300px;
+    max-width: 50%;
+    height: 300px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#quote-box {
+    background-color: #CAD2C5;
+    width: 200px;
+    min-height: 275px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 10px;
+}
+
+#calender-box {
+    background-color: #FFFFFF;
+    border: none;
+    border-top: 15px solid #DF7575;
+    width: 280px;
+    height: 285px;
+    overflow: hidden;
+    margin: 20px;
+    padding: 10px;
+}
+
+#add{
+    align-items: center;
+    appearance: none;
+    background: radial-gradient(
+        circle at center,
+        #52796F 0,
+        #3d5a54 100%   
+    );
+    border: 0;
+    border-radius: 6px;
+}
+
+#subtract {
+    background-color: #df5757;
+    border: none;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+
+#add:hover {
+    background-color: white;
+}
+
+#subtract:hover {
+    background-color: white;
+
+}
+
